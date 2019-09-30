@@ -21,10 +21,10 @@ while True:
 
     #quitting the game
     if (player == "q"):
-      if (PlayerScore>ComputerScore):
+      if (PlayerScore > ComputerScore):
        print("*****CONGRATS YOU WON*****")
        break
-      elif (ComputerScore>PlayerScore):
+      elif (ComputerScore > PlayerScore):
         print("YOU LOSE BETTER LUCK NEXT TIME")
         break
       else:
