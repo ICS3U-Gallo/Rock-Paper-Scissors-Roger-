@@ -1,8 +1,8 @@
 import random
  
 #infinite games until the player wants to quit
+
 #Player and Computer Scoring System
-game_number = 1
 ComputerScore = 0
 PlayerScore = 0
 
@@ -102,13 +102,13 @@ while True:
         print("computer score:", ComputerScore)
     
 
-    elif (player == "Paper"):
+    if (player == "Paper"):
       if (computer == "Paper"):
         print("Tie")
         print("your score:", PlayerScore)
         print("computer score:", ComputerScore)
     
-    elif (player == "Scissors"):
+    if (player == "Scissors"):
       if (computer == "Scissors"):
         print("Tie")
         print("your score:", PlayerScore)
